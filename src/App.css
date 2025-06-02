@@ -64,6 +64,7 @@ li {
 {
   header
   {
+    position: relative;
     display: none !important;
   } 
 
