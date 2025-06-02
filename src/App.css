@@ -65,7 +65,7 @@ li {
   header
   {
     position: relative;
-    display: none !important;
+    display: none;
   } 
 
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
