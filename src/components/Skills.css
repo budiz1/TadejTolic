@@ -51,6 +51,7 @@ h2 {
 .dashed-skills {
   border: 1.1px dashed #ffffff;
   padding: 20px;
+  border-radius: 10px;
   background-color: rgba(35, 111, 116, 0.485);
 }
 
