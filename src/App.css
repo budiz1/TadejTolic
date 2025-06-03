@@ -74,4 +74,9 @@ li {
     padding: 15px;
     max-width: 90%;
   }
+
+     header{
+    display: none;
+  }
+
 }
