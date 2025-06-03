@@ -50,7 +50,7 @@ li {
   text-decoration: underline; */
 
 /* Responsive Design */
-@media (max-width: 770px) {
+@media (max-width: 768px) {
   .app {
     padding: 10px;
   }
@@ -60,14 +60,18 @@ li {
   }
 }
 
-@media (min-width:320px)
-{
-  header
-  {
-    position: relative;
-    display: none;
-  } 
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .app {
+    padding: 10px;
+    max-width: 100%;
+  }
+}
 
-  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .app {
+    padding: 15px;
+    max-width: 90%;
+  }
 }

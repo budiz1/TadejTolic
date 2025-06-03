@@ -38,3 +38,55 @@
   color: #ffffff;
   border: 1.2px dashed white;
 }
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  #contact {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px; /* Reduced padding for mobile */
+    margin-left: 0; /* Remove left margin for mobile */
+    background-color: black;
+  }
+
+  .contact {
+    padding: 20px;
+  }
+
+  .contact h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact p {
+    font-size: 0.9rem;
+  }
+
+  .contact a {
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .contact {
+    padding: 30px;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 1rem;
+    /* border: dashed 2px #ffffff; */
+
+    background-color: black;
+  }
+
+  .contact h2 {
+    font-size: 1.8rem;
+  }
+}
