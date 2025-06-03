@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  border-radius: 5px;
+  border-radius: 10px;
     border: 1.1px dashed white;
   
 }
@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   width: inline;
+
 }
 
 .skills-list li {

@@ -67,10 +67,6 @@ img {
     padding: 30px;
   }
 
-  header{
-    display: none;
-  }
-
   .aligncnt
   {
     display: flex;
