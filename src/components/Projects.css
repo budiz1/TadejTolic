@@ -26,6 +26,14 @@
   transition: 0.3s ease-in-out;
 }
 
+#projects h2
+{
+  background-color: rebeccapurple;
+  border-radius: 7px;
+}
+
+
+
 .project-card h3 {
   margin-bottom: 10px;
   font-size: 1.2rem;
