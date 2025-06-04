@@ -1,15 +1,12 @@
 .skills-list {
+  align-content: center;
+  background-color: #144042;
+  border-radius: 10px;
   display: inline-flex;
   flex-wrap: wrap;
   list-style: none;
-  background-color: #000000;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  border-radius: 10px;
-    border: 1.1px dashed white;
-  
 }
+
 .skills-container {
   display: flex;
   flex-direction: column;
