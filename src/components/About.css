@@ -13,6 +13,10 @@ img {
 
   background-color: black;
 }
+#about h2
+{
+  background-color: brown;
+}
 
 .about-text {
   color: #ffffff;
