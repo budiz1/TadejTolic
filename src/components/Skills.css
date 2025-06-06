@@ -81,6 +81,15 @@ h2 {
   }
 }
 
+
+
+@media (max-width: 768px) {
+  .Skills {
+    padding: 10px;
+    max-width: 100%;
+  }
+}
+
 /* Tablet (max-width: 1024px) */
 @media (max-width: 1024px) and (min-width: 769px) {
   .skills {
